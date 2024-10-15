@@ -22,14 +22,17 @@ body {
 }
 
 section{
+    width: 1140px;
+    margin: auto;
     margin-top: 100px;
+    border-radius: 10px;
 }
 
 /* header styles */
 
 .header{
     background-color: aqua;
-    background-image: url('../images/banner/banner2\ -\ Copy.png');
+    background-image: url('../images/banner/banner2.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 300px 0px;
@@ -61,3 +64,59 @@ section{
 
 /* Main Styles */
 
+/* section failure styles */
+
+.faulure-container{
+    display: flex;
+    align-items: center;
+}
+
+.container-img{
+    text-align: center;
+}
+
+.container-img img{
+    width: 70%;
+}
+
+.failure-content{
+    padding-top: 100px;
+}
+
+.failure-content h1{
+    font-size: 40px;
+    width: 290px;
+}
+
+.failure-content p{
+    width: 420px;
+    margin: 20px 0px;
+}
+
+.failure-content ul{
+    width: 350px;
+    padding-left: 20px;
+}
+
+/* Section My Plans Styles */
+
+.plans h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.skill{
+    text-align: center;
+}
+
+.skill h2{
+    font-size: 30px;
+    margin: 10px 0px;
+}
