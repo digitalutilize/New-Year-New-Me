@@ -1,4 +1,63 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
+
+/* Shared Styles */
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+section{
+    margin-top: 100px;
+}
+
+/* header styles */
+
+.header{
+    background-color: aqua;
+    background-image: url('../images/banner/banner2\ -\ Copy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 0px;
+
+}
+
+.header-container{
+    width: 1140px;
+    margin: auto;
+    text-align: right;
+    display: grid;
+    justify-items: right;
+}
+
+.header-container h1{
+    width: 500px;
+    font-size: 60px;
+}
+
+.header-container p{
+    width: 400px;
+    margin: 40px 0px;
+}
+
+.header-container button{
+    color: white;
+    background-color: #F15B22;
+}
+
+/* Main Styles */
+
